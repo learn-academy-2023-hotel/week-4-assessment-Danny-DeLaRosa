@@ -34,9 +34,12 @@ beatles_album3 = 'Abbey Road'
 # Expected output: 'bby Rd'
 
 # Pseudo code:
+# create a method that takes in the strings above
 def no_vowels str
+    # remove the vowels if they are in the string
     str.delete "aeiou"
 end
+# print string without vowels
 p no_vowels beatles_album3
 # -------------------3) Create a method that takes in a string and checks if the string is a palindrome. A palindrome is the same word spelled forward or backward. Use the test variables provided.
 
@@ -48,11 +51,14 @@ palindrome_test_case3 = 'Rotator'
 # Expected output: 'Rotator is a palindrome'
 
 # Pseudo code:
+# create a method that takes in the strings above
 def palindrome str
+    #write a conditional that determines if the word downcased is the same in reverse
     if str.downcase == str.reverse.downcase
         "#{str} is a palindrone"
     else
         "#{str} is not a palindrone"
     end
 end
+# print the string if it is a palindrone
 p palindrome palindrome_test_case3
