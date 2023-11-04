@@ -14,7 +14,7 @@ List your chosen tech stack here: React
 
 ### LinkedIn
 
-Your LinkedIn url: 
+Your LinkedIn url: https://www.linkedin.com/in/daniel-de-la-rosa-8ba5a2289/
 
 Check the boxes below to certify that you have completed the following items on LinkedIn: 
 
